@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site tela de login bonita</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'rel='stylesheet'> 
+</head>
+<body>
+        <main class="container">
+                <form action="cadastro.php" method="get">
+                <h1>Login</h1>
+                
+                    <div class="input-box">
+                        <input placeholder="Usuario" type="email" name="email" id="iemail" required maxlength="24" minlength="5">
+                        <i class="bx bxs-user"></i>
+                    </div>
+
+                    <div class="input-box">
+
+                        <input type="password" name="senha" id="isenha" autocomplete="current-password" minlength="8" maxlength="24" placeholder="Senha">
+                        <i class="bx bxs-lock-alt"></i>
+                    </div>
+
+                    <div id="remember-forgot"> <label for="ilembrar">
+
+                        <input type="checkbox" name="lembrar" id="ilembrar">
+                       Lembrar minha senha</label>
+
+                        <a href="#">Esqueceu a senha?</a>
+                        
+                    </div>
+            
+                <input type="submit" value="Login">
+            
+            <div class="registro">
+                <p>Você não tem uma conta? <a href="#">Registre-se</a></p>
+            </div>
+          </form>
+
+        </main>
+</body>
+</html>
