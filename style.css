@@ -64,8 +64,7 @@ h1{ font-size: 2.1em;
     color: #34A3FD; 
 }
 input[type=submit]{
-    margin-bottom: 10px;
-    margin-top: 10px;
+    
     padding: 10px;
     width: 100%;
     background-color: transparent;
@@ -82,10 +81,12 @@ input[type=submit]:hover{
 #remember-forgot{
     display: flex;
     justify-content: space-between;
+    margin: -15px 0px 15px ;
 }
 #remember-forgot label input{
-    accent-color: #309EFD;
+    accent-color: #006dcc;
     margin-right: 5px;
+    color: white;
 }
 a{
     text-decoration: none;
