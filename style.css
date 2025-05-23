@@ -73,6 +73,8 @@ input[type=submit]{
     transition: background-color 0.4s ease;
     color: white;
     border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
 }
 input[type=submit]:hover{
     background-color: rgba(1, 1, 116, 0.315);
@@ -85,12 +87,11 @@ input[type=submit]:hover{
 }
 #remember-forgot label input{
     accent-color: #006dcc;
-    
+    padding: 15px;
     color: white;
 }
 
-a
-a{  
+a{  font-weight: 600;
     text-decoration: none;
 }
 a:hover{
@@ -104,5 +105,6 @@ a:hover{
     transform: translateY(-50%);
 }
 .registro{
- margin: 15px 0px -15px ;
+    text-align: center;
+ margin: 20px 0px 15px;
 }
