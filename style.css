@@ -64,7 +64,7 @@ h1{ font-size: 2.1em;
     color: #34A3FD; 
 }
 input[type=submit]{
-    
+    margin: 0px;  
     padding: 10px;
     width: 100%;
     background-color: transparent;
@@ -81,14 +81,16 @@ input[type=submit]:hover{
 #remember-forgot{
     display: flex;
     justify-content: space-between;
-    margin: -15px 0px 15px ;
+    margin: -12px 0px 15px;
 }
 #remember-forgot label input{
     accent-color: #006dcc;
-    margin-right: 5px;
+    
     color: white;
 }
-a{
+
+a
+a{  
     text-decoration: none;
 }
 a:hover{
@@ -100,4 +102,7 @@ a:hover{
     font-size: 22px;
     top: 50%;
     transform: translateY(-50%);
+}
+.registro{
+ margin: 15px 0px -15px ;
 }
