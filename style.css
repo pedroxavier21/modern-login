@@ -64,7 +64,9 @@ h1{ font-size: 2.1em;
     color: #34A3FD; 
 }
 input[type=submit]{
-    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
     width: 100%;
     background-color: transparent;
     border: none;
@@ -77,9 +79,19 @@ input[type=submit]:hover{
     background-color: rgba(1, 1, 116, 0.315);
     transition: 0.4s;
 }
-.remember-forgot{
+#remember-forgot{
     display: flex;
     justify-content: space-between;
+}
+#remember-forgot label input{
+    accent-color: #309EFD;
+    margin-right: 5px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
 .input-box i {
     position: absolute;
