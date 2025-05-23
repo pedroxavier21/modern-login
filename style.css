@@ -53,17 +53,38 @@ h1{ font-size: 2.1em;
     padding: 20px 45px 20px 20px ;
     border-radius: 10px;
     border: 2px solid rgba(255, 249, 249, 0.281);
+    transition: 0.4s;
 }
-.input-box > input::placeholder:focus-within{
-    color: black;
-}
-.input-box > input:focus-within{
-    background-color: white;
-    color: black;
-}
+
+
 .input-box > input::placeholder{
     color: white;
 }
-a{
-    text-decoration: none;
+ a{  font-size: 1em;
+    color: #34A3FD; 
+}
+input[type=submit]{
+    height: 40px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgba(255, 249, 249, 0.281);
+    transition: background-color 0.4s ease;
+    color: white;
+    border-radius: 20px;
+}
+input[type=submit]:hover{
+    background-color: rgba(1, 1, 116, 0.315);
+    transition: 0.4s;
+}
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+}
+.input-box i {
+    position: absolute;
+    right: 20px;
+    font-size: 22px;
+    top: 50%;
+    transform: translateY(-50%);
 }
